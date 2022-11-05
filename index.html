@@ -12,11 +12,11 @@
     <title>Proyecto / inicio</title>
 </head>
 
-<body>
+<body class="body">
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-secondary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Nombre del local</a>
+                <a class="navbar-brand" href="#">NAMEKU</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Busqueda</button>
+                        <button class="btn btn-dark" type="submit">Busqueda</button>
                     </form>
                 </div>
             </div>
@@ -80,20 +80,39 @@
     </div>
     <hr>
     <main>
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/botitas.jpeg" class="card-img-top" alt="botitas">
-            <div class="card-body">
-                <h5 class="card-title">Producto B</h5>
-                <p class="card-text">Aca tenemos un producto que se vende a $100</p>
-                <a href="#" class="btn btn-primary">Comprame!!!</a>
+        <div class="tarjetas">
+            <div class="card1" style="width: 18rem;">
+                <img src="./assets/botitas.jpeg" class="card-img-top" alt="botitas">
+                <div class="card-body">
+                    <h5 class="card-title">Producto B</h5>
+                    <p class="card-text">Aca tenemos un producto que se vende a $100</p>
+                    <a href="#" class="btn btn-primary">Comprame!!!</a>
+                    <div>
+                        <a href="#" class="btn btn-outline-secondary">Agregar al carrito</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/mini santas.jpeg" class="card-img-top" alt="mini santas">
-            <div class="card-body">
-                <h5 class="card-title">Producto P</h5><!--  -->
-                <p class="card-text">Aca tenemos otro producto que se vende a $200</p>
-                <a href="#" class="btn btn-primary">Compre ya!!!</a>
+            <div class="card2" style="width: 18rem;">
+                <img src="./assets/mini santas.jpeg" class="card-img-top" alt="mini santas">
+                <div class="card-body">
+                    <h5 class="card-title">Producto P</h5><!--  -->
+                    <p class="card-text">Aca tenemos otro producto que se vende a $200</p>
+                    <a href="#" class="btn btn-primary">Compre ya!!!</a>
+                    <div>
+                        <a href="#" class="btn btn-outline-secondary">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card3" style="width: 18rem;">
+                <img src="./assets/kawaii.jfif" class="card-img-top" alt="kawaii">
+                <div class="card-body">
+                    <h5 class="card-title">Producto K</h5><!--  -->
+                    <p class="card-text">Aca tenemos otro producto que se vende a $999</p>
+                    <a href="#" class="btn btn-primary">LLAME YA!!!</a>
+                    <div>
+                        <a href="#" class="btn btn-outline-secondary btn-large">Agregar al carrito</a>
+                    </div>
+                </div>
             </div>
         </div>
         <hr>
@@ -125,8 +144,10 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>Se aceptan todos los medios de pago</strong> Se puede abonar en efectivo por Rapipago o Pagofacil.
-                        Sino a traves de mercado pago podes seleccionar saldo en tu cuenta o alguna tarjeta de credito o debito
+                        <strong>Se aceptan todos los medios de pago</strong> Se puede abonar en efectivo por Rapipago o
+                        Pagofacil.
+                        Sino a traves de mercado pago podes seleccionar saldo en tu cuenta o alguna tarjeta de credito o
+                        debito
                     </div>
                 </div>
             </div>
@@ -140,8 +161,11 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>SI NO TENES CUENTA, </strong> tenés que ingresar al sitio, desde tu computadora o celular y registrarte. Podés hacerlo con tu usuario de Facebook, Google, Apple o bien con tus datos personales creando una cuenta en el sitio.
-                        Para finalizar el proceso de registración, recibirás un e-mail, que deberás confirmar haciendo click en él.
+                        <strong>SI NO TENES CUENTA, </strong> tenés que ingresar al sitio, desde tu computadora o
+                        celular y registrarte. Podés hacerlo con tu usuario de Facebook, Google, Apple o bien con tus
+                        datos personales creando una cuenta en el sitio.
+                        Para finalizar el proceso de registración, recibirás un e-mail, que deberás confirmar haciendo
+                        click en él.
                     </div>
                 </div>
             </div>
@@ -149,12 +173,14 @@
     </main>
 
     <footer>
-        <a href="#">
-            <img class="footer" src="./assets/whatsapp.png" alt="whatsapp">
-        </a>
-        <a href="#">
-            <img class="footer" src="./assets/instagram.png" alt="instagram">
-        </a>
+        <div class="iconos">
+            <a href="#">
+                <img class="footer1" src="./assets/whatsapp.png" alt="whatsapp">
+            </a>
+            <a href="#">
+                <img class="footer2" src="./assets/instagram.png" alt="instagram">
+            </a>
+        </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
