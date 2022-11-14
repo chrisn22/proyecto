@@ -170,3 +170,8 @@ text-align: center;
 .contacto_li_footer{
   margin-top: 16px;
 }
+
+.textoIconos{
+  text-overflow: ellipsis;
+    overflow: hidden;
+}
