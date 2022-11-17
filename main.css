@@ -7,7 +7,6 @@
 
 /* tarjetas */
 .card1 {
-  border: dotted blue;
   max-width: 40%;
   max-height: 40%;
   padding-bottom: 10%;
@@ -16,10 +15,10 @@
   object-fit: cover;
   margin-right: 60px;
   margin-left: 60px;
+  justify-content: space-between;
 }
 
 .card2 {
-  border: dotted green;
   max-width: 40%;
   max-height: 40%;
   padding-bottom: 10%;
@@ -28,6 +27,7 @@
   object-fit: cover;
   margin-right: 60px;
   margin-left: 60px;
+  justify-content: space-between;
 }
 
 .card3 {
@@ -39,7 +39,7 @@
   object-fit: cover;
   margin-right: 60px;
   margin-left: 60px;
-  border: dotted red;
+  justify-content: space-between;
 }
 
 .tarjetas {
@@ -47,7 +47,7 @@
   display: flex;
 }
 
-.body {
+#body {
     background: #ebebeb;
 }
 
@@ -166,6 +166,7 @@ margin-left: 40%;
 
 .contacto_h2_preguntas{
 text-align: center;
+font-size: 40px;
 }
 
 .contacto_li_footer{
@@ -175,4 +176,10 @@ text-align: center;
 .textoIconos{
   text-overflow: ellipsis;
     overflow: hidden;
+}
+
+.contacto_li_footer{
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
