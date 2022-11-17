@@ -48,15 +48,16 @@
 }
 
 .body {
-    background: rgb(252, 212, 219);
+    background: #ebebeb;
 }
 
 /* navegador */
+
 .navbar-brand {
-  color: whitesmoke;
+  color: yellow;
   font-size: 30px;
   text-align: center;
-  background: rgb(187, 143, 150);
+  background: blue;
   font-style: italic;
   padding: 10px;
 }
