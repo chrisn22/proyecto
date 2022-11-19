@@ -1,12 +1,5 @@
-.footer {
-  display: flex;
-  flex-direction: row;
-  width: 5%;
-  height: auto;
-}
-
 #body {
-    background: #ebebeb;
+  background: #ebebeb;
 }
 
 /* navegador */
@@ -25,16 +18,6 @@
   font: bold;
 }
 
-/* iconos */
-.iconos {
-  text-align: center;
-  max-width: 10%;
-  max-height: 10%;
-  border: solid blue;
-  display: flex;
-  flex-direction: row;
-}
-
 /* CONTACTOS */
 /* titulo principal */
 .contacto__h1__titulo {
@@ -46,7 +29,7 @@
 }
 /* titulo secundario */
 .contacto__h2__titulo2 {
-background-color: #eee;
+  background-color: #eee;
   letter-spacing: 15px;
   justify-content: center;
   text-align: center;
@@ -76,7 +59,7 @@ background-color: #eee;
   flex-direction: column;
   width: 30%;
   margin-right: 40%;
-margin-left: 40%;
+  margin-left: 40%;
 }
 
 /* id formularios */
@@ -88,19 +71,19 @@ margin-left: 40%;
 /* botones de check */
 .contacto__div__checkForm {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.form-check-input{
+.form-check-input {
   display: flex;
   flex-direction: row;
   margin-right: 10px;
 }
 
 /* boton enviar */
-.contacto__botonEnviar{
+.contacto__botonEnviar {
   background: black;
   color: white;
   border: 1px solid white;
@@ -122,35 +105,51 @@ margin-left: 40%;
   margin-bottom: 20px;
 }
 
-.contacto_h2_preguntas{
-text-align: center;
-font-size: 40px;
+.contacto_h2_preguntas {
+  text-align: center;
+  font-size: 40px;
 }
 
-
-.textoIconos{
+.textoIconos {
   text-overflow: ellipsis;
-    overflow: hidden;
+  overflow: hidden;
 }
 
-#footer{
+#footer {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 3px;
   text-align: center;
 }
 
-
-#legal{
-  font-family: 'Patrick Hand', cursive !important;
+#legal {
+  font-family: "Patrick Hand", cursive !important;
   background-color: black;
   text-align: center;
-  padding: .5rem 0rem;
-    color: #dbcaca;
+  padding: 0.5rem 0rem;
+  color: #dbcaca;
   margin-bottom: auto;
 }
 
-.iconosRedes{
-padding-top: 5px;
-padding-bottom: 10px;
+.iconosRedes {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.card-img-top{
+max-width: 300px;
+max-height: 350px;
+}
+
+.banner{
+display: flex;
+  padding-top: 10px;
+  padding-left: 30%;
+  padding-right: 40%;
+  border:solid green;
+}
+
+.h1{
+  display: flex;
+  justify-content: center;
 }
