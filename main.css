@@ -5,10 +5,8 @@
 /* navegador */
 
 .navbar-brand {
-  color: yellow;
   font-size: 30px;
   text-align: center;
-  background: blue;
   font-style: italic;
   padding: 10px;
 }
@@ -146,10 +144,15 @@ display: flex;
   padding-top: 10px;
   padding-left: 30%;
   padding-right: 40%;
-  border:solid green;
 }
 
 .h1{
   display: flex;
   justify-content: center;
 }
+
+.img-fuid{
+  max-width: 100%;
+  height: auto;
+}
+
