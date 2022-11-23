@@ -6,12 +6,16 @@
 
 .navbar-brand {
   font-size: 30px;
-  text-align: center;
   font-style: italic;
   padding: 10px;
 }
 
 .navbar {
+  font-size: 20px;
+  font: bold;
+}
+
+.btn-link{
   font-size: 20px;
   font: bold;
 }
@@ -154,9 +158,4 @@ display: flex;
 .img-fuid{
   max-width: 100%;
   height: auto;
-}
-
-.tarjetas{
-background: url("http://4.bp.blogspot.com/-_EeHodxrNGE/Tri1sQD4C2I/AAAAAAAAPkY/fl4WFN6JTe4/s1600/Fondo-de-Navidad-657481.jpg");
-background-size: auto;
 }
