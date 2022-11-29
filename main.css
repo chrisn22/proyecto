@@ -149,10 +149,7 @@ max-height: 350px;
 }
 
 .banner{
-display: flex;
   padding-top: 10px;
-  padding-left: 30%;
-  padding-right: 40%;
 }
 
 .h1{
